@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Products</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<script src="jQuery.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-danger-subtle">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Flowers.</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="review.html">Review</a>
+		   </li>
+		    <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="team.html">OurTeam</a>
+        </li>
+      </ul>
+    </div>
+	  <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+  </div>
+</nav>
+
+<section class="products" id="products">
+
+    <h1 class="heading"> Latest <span>Products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="images/img-1.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()"class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.150 <span>Rs.160.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="images/img-2.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()"class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.120.99 <span>Rs.150.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="images/img-3.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()"class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.130 <span>Rs.140.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-20%</span>
+            <div class="image">
+                <img src="images/img-4.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()"  class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.175.99 <span>Rs.180.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-17%</span>
+            <div class="image">
+                <img src="images/img-5.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()"class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.120.99 <span>Rs.150.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-3%</span>
+            <div class="image">
+                <img src="images/img-6.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()"class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.180.99 <span>Rs190</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-18%</span>
+            <div class="image">
+                <img src="images/img-7.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.120.99 <span>Rs.130.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="images/img-8.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.130.99 <span>Rs.150.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="images/img-9.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.180.99 <span>Rs.185.99</span> </div>
+            </div>
+        </div>
+		
+        <div class="box">
+            <span class="discount">-11%</span>
+            <div class="image">
+                <img src="images/img-10.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.130.99 <span>Rs.145.99</span> </div>
+            </div>
+        </div>
+		
+        <div class="box">
+            <span class="discount">-16%</span>
+            <div class="image">
+                <img src="images/img-11.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.190.99 <span>Rs.215.99</span> </div>
+            </div>
+        </div>
+		
+        <div class="box">
+            <span class="discount">-7%</span>
+            <div class="image">
+                <img src="images/img-12.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.160.99 <span>Rs.185.99</span> </div>
+            </div>
+        </div>
+		
+        <div class="box">
+            <span class="discount">-12%</span>
+            <div class="image">
+                <img src="images/img-13.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.110.99 <span>Rs.125.99</span> </div>
+            </div>
+        </div>
+		
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="images/img-14.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.160.99 <span>Rs.175.99</span> </div>
+            </div>
+        </div>
+		
+        <div class="box">
+            <span class="discount">-12%</span>
+            <div class="image">
+                <img src="images/img-15.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.190.89 <span>Rs.215.99</span> </div>
+            </div>
+        </div>
+		
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="images/img-16.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.180.99 <span>Rs.185.99</span> </div>
+            </div>
+        </div>
+		
+        <div class="box">
+            <span class="discount">-11%</span>
+            <div class="image">
+                <img src="images/img-17.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.280.99 <span>Rs.300</span> </div>
+            </div>
+        </div>
+		
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="images/img-18.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.250 <span>Rs.299.99</span> </div>
+            </div>
+        </div>
+		
+        <div class="box">
+            <span class="discount">-12%</span>
+            <div class="image">
+                <img src="images/img-19.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.250.99 <span>Rs.280</span> </div>
+            </div>
+        </div>
+		
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="images/img-20.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.211.99 <span>Rs.250</span> </div>
+            </div>
+        </div>
+		
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="images/img-21.jpg" alt="">
+                <div class="icons">
+                    <a href="#" onclick="added()" class="fas fa-heart"></a>
+                    <a href="#" onclick="cart()" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower Pot</h3>
+                <div class="price"> Rs.210 <span>Rs.255.99</span> </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>Extra Links</h3>
+            <a href="#">My Account</a>
+            <a href="#">My Order</a>
+            <a href="#">My Favorite</a>
+        </div>
+
+        <div class="box">
+            <h3>Locations</h3>
+            <a href="#">India</a>
+            <a href="#">USA</a>
+            <a href="#">Japan</a>
+            <a href="#">France</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#">+917355668748,9650995672</a>
+            <a href="#">psadhana582003@gmail.com</a>
+            <a href="#">Uttar Pradesh, India </a>
+            <img src="images/payment.png" alt="">
+        </div>
+    </div>
+	</section>
+<section class="footer">
+<div class="card">
+  <div class="card-body">
+    created by <span> Sadhana & Partima </span> | All rights reserved
+  </div>
+</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+</body>
+</html>
